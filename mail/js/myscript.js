@@ -3,14 +3,16 @@ let emailVerificata;
 let verifica;
 let emailPresenti = ["tizio@virgilio.it", "caio@virgilio.it", "sempronio@virgilio.it", "cesare@virgilio.it", "pippo@virgilio.it"];
 
-console.log("implementaione variabili");
+console.log("implementazione variabili");
 
-if(email == emailPresenti[0] || email == emailPresenti[1] || email == emailPresenti[2] || email == emailPresenti[3] || email == emailPresenti[4]){
-    emailVerificata = "SI";
-    verifica= "L'email è stata approvata";
-}else{
-    emailVerificata = "NO";
-    verifica= "L'email non è stata approvata";
+for( let i = 0; i < emailPresenti.lenght; i++){
+    if (emailPresenti.includes(email)) {
+        emailVerificata = "SI";
+        verifica = "L'email è stata approvata";
+    } else {
+        emailVerificata = "NO";
+        verifica = "L'email non è stata approvata";
+    }
 }
 
 console.log("implementazione condizioni");
