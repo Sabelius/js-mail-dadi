@@ -12,10 +12,10 @@ console.log("definizione numero random");
 
 if(lancioGiocatore > lancioComputer){
     vincitore = "Giocatore";
-}else if(lancioGiocatore = lancioComputer){
-    vincitore = "Riprovare";
-}else{
+}else if(lancioGiocatore < lancioComputer){
     vincitore = "Computer";
+}else{
+    vincitore = "Riprovare";
 }
 
 console.log("implementazione condizioni");
