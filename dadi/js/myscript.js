@@ -5,8 +5,8 @@ let vincitore;
 console.log("implementazione variabili");
 
 
-lancioGiocatore = parseInt((6 * Math.random()) + 1);
-lancioComputer = parseInt((6 * Math.random()) + 1);
+lancioGiocatore = Math.floor((6 * Math.random()) + 1);
+lancioComputer = Math.floor((6 * Math.random()) + 1);
 
 console.log("definizione numero random");
 
