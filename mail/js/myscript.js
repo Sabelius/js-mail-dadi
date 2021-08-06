@@ -7,12 +7,11 @@ let emailPresenti = ["tizio@virgilio.it", "caio@virgilio.it", "sempronio@virgili
 console.log("implementazione variabili");
 
 for( let i = 0; i < emailPresenti.length; i++){
-    console.log(i);
-    console.log(emailPresenti[i]);
     if (email == emailPresenti[i]){
         verificata = true;
     }
 }
+
 console.log("definizione ciclo for");
 
 if(verificata == true){
